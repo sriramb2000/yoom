@@ -1,0 +1,19 @@
+{
+    "manifest_version" : 2,
+
+    "name": "yoom",
+    "description": "Autoclose annoying zoom tabs.",
+    "version": "1.0",
+    "background": {
+        "scripts": [
+            "scripts/background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "webNavigation",
+        "background",
+        "tabs",
+        "alarms"
+    ]
+}
